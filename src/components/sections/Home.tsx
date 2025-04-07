@@ -5,7 +5,7 @@ interface HomeProps {
 }
 
 export const Home: React.FC<HomeProps> = ({ theme }) => {
-  const myName = import.meta.env.VITE_NAME;
+  // const myName = import.meta.env.VITE_NAME;
   return (
     <section
       id="home"
@@ -16,7 +16,7 @@ export const Home: React.FC<HomeProps> = ({ theme }) => {
           <div className="mb-6">
             <span className="font-bold text-2xl">Hi, I'm</span>
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right font-barlow">
-              {myName}
+              Khushbu Katakwar {/* {myName} */}
             </h1>
             <span className="font-medium ">UI Developer | MERN Stack</span>
           </div>

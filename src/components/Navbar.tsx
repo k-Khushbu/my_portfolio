@@ -21,8 +21,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   //   checkedTheme,
   theme,
 }) => {
-  const linkedInLink = import.meta.env.VITE_LINKEDIN_LINK;
-  const gitHubLink = import.meta.env.VITE_GITHUB_LINK;
+  const linkedInLink = "https://www.linkedin.com/in/khushbu-k/";
+  const gitHubLink = "https://github.com/k-Khushbu";
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";

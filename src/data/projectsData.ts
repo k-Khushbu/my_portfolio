@@ -1,5 +1,5 @@
-const reactogramProjectLink = import.meta.env.VITE_PROJECT_REACTOGRAM
-const ECProjectLink = import.meta.env.VITE_PROJECT_ECWEBSITE
+const reactogramProjectLink = "https://github.com/k-Khushbu/reactogram"
+const ECProjectLink = "https://github.com/k-Khushbu/Frontend-Project"
 export const projectsData = [
     {
       title: "Reacto-Gram",
