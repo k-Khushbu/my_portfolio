@@ -1,0 +1,17 @@
+#light {
+  background-color: #f3ebf6;
+  color: #15202b;
+}
+
+#dark {
+  background-color: #15202b;
+  color: #f3ebf6;
+}
+
+#light .main-content {
+  color: #15202b;
+}
+
+#dark .main-content {
+  color: #f3ebf6;
+}
