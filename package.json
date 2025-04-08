@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "main"
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
